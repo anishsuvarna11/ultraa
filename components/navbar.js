@@ -15,18 +15,14 @@ export default function Navbar() {
             <>
               <div className="flex flex-wrap items-center justify-between w-full lg:w-auto">
                 <Link href="/">
-                  <a className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100">
-                    <span>
-                      <img
-                        src="/img/rrr.png"
-                        alt="N"
-                        width="32"
-                        height="32"
-                        className="w-8"
-                      />
-                    </span>
-                    <span>UltraGrasp</span>
-                  </a>
+                <a className="w-full px-6 py-2 text-center text-white bg-indigo-600 rounded-md lg:ml-5">
+                        3D Rendering Videos
+                      </a>
+                </Link>
+                <Link href="/index2">
+                <a className="w-full px-6 py-2 mt-3 text-center text-white bg-indigo-600 rounded-md lg:ml-5">
+                        Additional Images
+                      </a>
                 </Link>
 
                 <Disclosure.Button

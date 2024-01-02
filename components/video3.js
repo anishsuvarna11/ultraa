@@ -27,7 +27,7 @@ export default function Video3() {
           )}
           {playVideo && (
             <iframe
-              src="https://www.youtube-nocookie.com/embed/7R3jY9Qhj9I?controls=0&autoplay=1"
+              src="https://www.youtube-nocookie.com/embed/llEYYWRxTt8?controls=0&autoplay=1"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

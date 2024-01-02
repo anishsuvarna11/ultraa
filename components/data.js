@@ -7,8 +7,8 @@ import {
   SunIcon,
 } from "@heroicons/react/outline";
 
-import benefitOneImg from "./Screenshot_2023-06-18_at_2.36.36_PM-removebg-preview.png
-import benefitTwoImg from "./Screenshot_2023-06-18_at_2.36.44_PM-removebg-preview.png
+import benefitOneImg from "../components/Screenshot_2023-06-18_at_2.36.36_PM-removebg-preview.png";
+import benefitTwoImg from "../components/Screenshot_2023-06-18_at_2.36.44_PM-removebg-preview.png";
 
 const benefitOne = {
   title: "Benefits",

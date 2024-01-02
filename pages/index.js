@@ -8,6 +8,7 @@ import Video from "../components/video";
 import Video2 from "../components/video2";
 import Video3 from "../components/video3";
 import Video4 from "../components/video4";
+import Video5 from "../components/video5";
 
 import Benefits from "../components/benefits";
 import Footer from "../components/footer";
@@ -32,7 +33,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>UltraGrasp</title>
+        <title>DeltaAI</title>
         <meta
           name="description"
           content="Nextly is a free landing page template built with next.js & Tailwind CSS"
@@ -41,25 +42,17 @@ export default function Home() {
       </Head>
 
       <Navbar />
-      <Hero />
       <SectionTitle
-        pretitle="UltraGrasp"
-        title=" Mission">
-        Our mission is to empower amputees by providing a revolutionary, noninvasive prosthetic device that uses deep learning and vision transformers to enable autonomous grasping. We aim to reduce prosthetic stigma, improve comfort, and increase affordability for all amputees. Our passion for improving lives drives us to make our product accessible to everyone.
-      </SectionTitle>
-      <Benefits data={benefitOne} />
-      <Benefits imgPos="right" data={benefitTwo} />
-      <SectionTitle
-        pretitle="Watch a video"
-        title="Product Demos">
-        Below are a couple short videos of our product demos
+        pretitle="Demo"
+        title="DeltaAI - 3D Rendering Videos">
+        Semi-Autonomous Tissue Grossing Measurements and Recommendations using Neural Radiance Fields to Facilitate Rapid and Complete Intraoperative Histological Assessment of Tumor Margins
       </SectionTitle>
       <Video />
       <Video2 />
       <Video3 />
       <Video4 />
-      <Cta />
-      <Footer />
+      <Video5 />
+
     </>
   );
 }
